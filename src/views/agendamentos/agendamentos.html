@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Agendamentos</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./acordeon.css" />
+  </head>
+  <body>
+    <Header>
+      <div class="header">
+        <ul>
+          <li ><a href="/">Home</a></li>
+          <li ><a href="/agendamentos">Agendamentos</a></li>
+          <li ><a href="/agendar">Agendar</a></li>
+          <li ><a href="/orcamentos">Orçamentos</a></li>
+          <li ><a href="/recibos">Listas de Orçamentos</a></li>
+          <li ><a href="/contato">Fale Conosco</a></li>
+        </ul>    
+      </div>
+    </Header>
+    <main id="conteudo" class="main">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16">
+          <i class="fa fa-calendar fa-fw w3-margin-right w3-xxlarge w3-text-indigo"></i>Próximos Agendamentos</h2>
+          <section class="agendamentos">
+            <ul id="agendamentos"></ul>
+          </section>
+      </div>
+    </main>
+    <footer class="w3-container w3-dark-gray w3-center w3-margin-top" id="footer">
+      <p>Minhas Redes Sociais</p>
+      <a href="" target="_blank"><i class="fa fa-facebook w3-xxlarge w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram w3-xxlarge w3-hover-opacity"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube w3-xxlarge w3-hover-opacity"></i></a>
+      <a href="tel:+1234567890"><i class="fa fa-phone w3-xxlarge w3-hover-opacity"></i></a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./agendamentos.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+{
+  "budgets": [
+    {
+      "client": "Wellington da Cruz Gomes",
+      "date": "2024-05-21",
+      "amount": "23761.32",
+      "contact": "19 99919-9999",
+      "vehicleModel": "Gol 1.6",
+      "vehiclePlate": "",
+      "services": [
+        {
+          "descricao": "sdasd",
+          "valor": 0.67
+        },
+        {
+          "descricao": "sdasda",
+          "valor": 65.65
+        },
+        {
+          "descricao": "sdasd",
+          "valor": 23695
+        }
+      ],
+      "id": "116d086d-b72f-48a5-9bdb-d5cdbf8abd1a"
+    },
+    {
+      "client": "Fernanda Castro",
+      "date": "2024-05-15",
+      "amount": "520.00",
+      "contact": " 11 12589-5698",
+      "vehicleModel": "Ford Fusion",
+      "vehiclePlate": "ASD-1487",
+      "services": [
+        {
+          "descricao": "troca de oleo",
+          "valor": 520
+        }
+      ],
+      "id": "52a5e19e-dff9-4151-91cf-191ef730020b"
+    }
+  ],
+  "comments": [
+    {
+      "client": "Sorte!!",
+      "date": "2024-05-11",
+      "email": "giovana@gmail.com",
+      "assessment": "Giovana linda"
+    },
+    {
+      "client": "Pedro",
+      "date": "30/04/2025",
+      "email": "wellington.cruzgomes@gmail.com",
+      "assessment": "dfgsdfgsdfgsdfg"
+    }
+  ],
+  "agendamentos": [
+    {
+      "id": "11d646ea-0627-4edc-a98a-b8d7c82552ba",
+      "client": "wellington",
+      "date": "2024-05-14T19:43",
+      "service": "troca de oleo"
+    },
+    {
+      "id": "5378fbff-a3ca-4c58-95c8-522e81c8ba8b",
+      "client": "Giovana",
+      "date": "2024-05-19T20:45",
+      "service": "Troca coifa lado roda"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+    "name": "Mineirinho's Car",
+    "about": "Mineirinho's Car é um mecânico com mais de 10 anos de experiência em manutenção veicular. Especialista em revisões, limpeza de ar condicionado, suspensão e motor, conhecido por sua habilidade técnica e compromisso com a excelência. Sua honestidade e integridade inspiram confiança em sua clientela, enquanto sua dedicação em se manter atualizado com as últimas tecnologias garante serviços de alta qualidade. Mineirinho's Car não apenas conserta veículos, mas também proporciona tranquilidade e confiança aos seus clientes.",
+    "photo": "./images/icons/profile.avif",
+    "job": "Serviços de Revisão e Manutenção Mecanica em Geral",
+    "location": "Paulínia-SP, Brasil",
+    "phone": "(19) 99167-7777",
+    "email": "mineirinho.mecanica@gmail.com",
+    "skills": {
+      "automakers": [
+        {
+          "name": "Volkswagen",
+          "logo": "./images/vw.png"
+          
+        },
+        {
+          "name": "Audi",
+          "logo": "./images/audi.png"
+        },
+        {
+          "name": "Chevrolet",
+          "logo": "./images/chevrolet.png"
+        },
+        {
+          "name": "citroen",
+          "logo": "./images/citroen.png"
+        },
+        {
+          "name": "Fiat",
+          "logo": "./images/fiat.png"
+        },
+        {
+          "name": "Ford",
+          "logo": "./images/ford.png"
+        },
+        {
+          "name": "Honda",
+          "logo": "./images/honda.png"
+        },
+        {
+          "name": "Hyundai",
+          "logo": "./images/hyundai.png"
+        },
+        {
+          "name": "Jeep",
+          "logo": "../images/jeep.png"
+        },
+        {
+          "name": "Nissan",
+          "logo": "./images/nissan.png"
+        },
+        {
+          "name": "Peugeot",
+          "logo": "./images/peugeot.png"
+        },
+        {
+          "name": "Renault",
+          "logo": "./images/renault.png"
+        },
+        {
+          "name": "Toyota",
+          "logo": "./images/toyota.png"
+        }
+      ]
+    },
+    "updateOpeningHours": [
+      {
+        "weekday":"Segunda-Feira",
+        "time": "08:00 - 17:00"
+      },
+      {
+        "weekday":"Terça-Feira",
+        "time": "08:00 - 17:00"
+      },
+      {
+        "weekday":"Quarta-feira",
+        "time":"08:00 - 16:30"
+       
+      },
+      {
+        "weekday":"Quinta-feira",
+        "time": "08:00 - 17:00"
+      },
+      {
+        "weekday":"Sexta-feira",
+        "time": "08:00 - 17:00"
+      },
+      {
+        "weekday":"Sabádo",
+        "time": "08:00 - 11:30"
+      }
+     
+    ],
+    "services": [
+      {
+        "name": "Troca de óleo e filtro",
+        "img": "./images/troca-de-oleo.jpg",
+        "price": 100.00
+      },
+      {
+        "name": "Alinhamento e balanceamento",
+        "img": "./images/alinhamento-e-balaceamento.jpg",
+        "price": 80.00
+      },
+      {
+        "name": "Revisão Completa",
+        "img": "./images/revisao-completa.jpg",
+        "price": 300.00
+      },
+      {
+        "name": "Troca de correia dentada",
+        "img": "./images/correia-dentada.jpg",
+        "price": 150.00
+      },
+      {
+        "name": "Substituição de pastilhas de freio",
+        "img": "./images/freio.jpg",
+        "price": 120.00
+      },
+      {
+        "name": "Troca de amortecedores",
+        "img": "./images/amortecedores.jpg",
+        "price": 300.00
+      },
+      {
+        "name": "Limpeza de bicos injetores",
+        "img": "./images/limpeza-de-bico.jpg",
+        "price": 80.00
+      },
+      {
+        "name": "Troca de velas de ignição",
+        "img": "./images/cabo-de-vela.jpg",
+        "price": 60.00
+      },
+      {
+        "name": "Troca de pneus",
+        "img": "./images/troca-de-pneus.jpg",
+        "price": 50.00
+      },
+      {
+        "name": "Diagnóstico eletrônico",
+        "img": "./images/rasther.jpg",
+        "price": 100.00
+      }
+    ],
+    "partners": [
+      {
+        "name": "Leandro Retifica",
+        "img": "./images/parceiros/canal-do-cabecoteiro.jpg",
+        "description": "Serviços de Retifica de cabeçotes"
+      },
+      {
+        "name": "Autozone",
+        "img": "./images/parceiros/autozone.png",
+        "description": "Venda de peças e acessórios multimarcas"
+      },
+      {
+        "name": "RB Auto Peça",
+        "img": "./images/parceiros/RB.png",
+        "description": "Venda de peças e acessórios multimarcas"
+      },
+      {
+        "name": "Acácia",
+        "img": "./images/parceiros/acacia.jpg",
+        "description": "Venda de peças e acessórios multimarcas"
+      },
+      {
+        "name": "Rocha Auto Peça",
+        "img": "./images/parceiros/rocha.png",
+        "description": "Venda de peças e acessórios multimarcas"
+      }
+    ]
+  }

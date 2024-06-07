@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mineirinho's Car</title>
+    <meta
+      name="description"
+      content="Lowdb JSON File Database Example Starter"
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./acordeon.css" />
+    <link rel="stylesheet" type="text/css" href="./skills.css" />
+  </head>
+  <body>
+    <Header>
+      <div class="header">
+        <ul>
+          <li ><a href="/">Home</a></li>
+          <li ><a href="/agendamentos">Agendamentos</a></li>
+          <li ><a href="/agendar">Agendar</a></li>
+          <li ><a href="/orcamentos">Fazer Orçamento</a></li>
+          <li ><a href="/recibos">Orçamentos</a></li>
+          <li ><a href="/contato">Fale Conosco</a></li>
+        </ul>    
+      </div>
+    </Header>
+    
+    <main id="conteudo" class="main">
+      <div class="w3-content w3-margin-top" style="max-width:1400px;">
+  
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+    
+          <!-- Left Column -->
+          <div class="w3-third">
+    
+            <div class="w3-white w3-text-black w3-card-4">
+              
+              <div class="w3-container">
+                <h2 id="profile.name"></h2>
+              </div>
+              <div class="w3-container">
+                <img class="photo" id="profile.photo">
+                <p><i class="fa fa-briefcase w3-margin-right w3-large w3-text-gray" id="profile.job"></i></p>
+                <p><i class="fa fa-home w3-margin-right w3-large w3-text-gray" id="profile.location"></i></p>
+                <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-gray" id="profile.email"></i></p>
+                <p><i class="fa fa-phone  w3-margin-right w3-large w3-text-gray" id="profile.phone"></i></p>
+                <hr>
+
+      
+              </div>
+            </div><br>
+            <div class="">
+            <section class="acordeon">
+              <button class="trigger" type="button">
+                  <h2>Marcas</h2>
+              </button>
+  
+              <div class="content">
+                  <div class="skills">
+                      <section class="tools">
+                          <ul id="profile.skills.automakers">
+                              
+                          </ul>
+                      </section>
+                  </div>
+              </div>
+          </section>
+  
+          <section class="acordeon">
+              <button class="trigger" type="button">
+                  <h2>Horários de<br>Atendimento </h2>
+              </button>
+  
+              <div class="content">
+                  <ul class="openingHours" id="profile.openingHours">
+                         
+                  </ul>
+              </div>
+          </section>
+           </div>
+          </div>
+    
+          <div class="w3-twothird">
+      
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-car fa-fw w3-margin-right w3-xxlarge w3-text-gray"></i>Sobre</h2>
+              <p id="aboutProfile">
+              </p>
+            </div>
+  
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16">
+                <i class="fa fa-tachometer w3-xxlarge w3-text-gray"></i>Serviços
+              </h2>
+              <div class="w3-container w3-col s6 " >
+                <section class="services">
+                  <ul id="profile.services">
+                      
+                  </ul>
+                </section>
+                </div>
+            </div>
+    
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16">
+                <i class="fa fa-globe fa-fw w3-margin-right w3-xxlarge w3-text-gray"></i> Parceiros
+              </h2>
+              <section class="partners">
+                <ul id="profile.partners">
+                    
+                </ul>
+              </section>
+                         
+            </div>
+
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+              <h2 class="w3-text-grey w3-padding-16">
+                <i class="fa fa-comments fa-fw w3-margin-right w3-xxlarge w3-text-gray"></i>Comentários
+              </h2>
+              <div class="w3-container">
+                <section class="comments">
+                  <ul id="comment">
+                      
+                  </ul>
+                </section>
+              
+            </div>
+    
+           
+          </div>
+  
+        </div>
+    
+      </div>
+    </main>
+
+    <footer class="w3-container w3-dark-gray w3-center w3-margin-top" id="footer">
+      <p>Minhas Redes Sociais</p>
+      <a href="" target="_blank"><i class="fa fa-facebook w3-xxlarge w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram w3-xxlarge w3-hover-opacity"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube w3-xxlarge w3-hover-opacity"></i></a>
+      <a href="tel:+1234567890"><i class="fa fa-phone w3-xxlarge w3-hover-opacity"></i></a>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./client.js"></script>
+    
+  </body>
+</html>
